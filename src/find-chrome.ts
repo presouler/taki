@@ -27,6 +27,7 @@ const paths: string[] =
         '/usr/bin/chromium',
         '/usr/bin/chromium-browser',
         '/snap/bin/chromium',
+        '/opt/build/repo/node_modules/chromium/lib/chromium/chrome-linux/chrome',
       ]
 
 export function findChrome(): string {
